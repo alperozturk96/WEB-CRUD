@@ -1,0 +1,76 @@
+﻿@model dataAccess.Entity.Cpu
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UPDATE TABLE PAGE</title>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css">
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="/Home/Viewws">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Home/Create">Add Datas Into Tables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Delete">Delete Datas From Tables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Update">Update Datas From Tables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Viewws">View Tables</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <hr id="woop3" />
+
+            <div class="row">
+                <div class="col-12">
+                    <form action="/home/UpdateCpu" method="post">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">CPU Id</label>
+                            <input type="number" class="form-control" id="formGroupExampleInput" name="cpuid" value="@Model.cpuid">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">CPU Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" name="Name" value="@Model.Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">CPU Cache Size</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" name="cachesize" value="@Model.cachesize">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">CPU Lithography</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" name="nanometer" value="@Model.nanometer">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">CPU Clock Speed</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" name="speed" value="@Model.speed">
+                        </div>
+                        <button class="btn btn-primary" type="submit" value="Submit">Update</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>

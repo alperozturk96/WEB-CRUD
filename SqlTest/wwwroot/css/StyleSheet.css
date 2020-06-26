@@ -1,0 +1,42 @@
+﻿.display-4 {
+    color: orangered;
+    text-align: center;
+}
+
+#homeback
+{
+}
+
+.that1
+{
+    float:left;
+}
+
+.btn btn-success
+{
+    float: right;
+}
+
+.lead {
+    margin-top: 5%;
+}
+
+#headerunic
+{
+    margin-bottom: 4%;
+}
+
+#woop2 
+{
+    
+    margin-left: 25%;
+}
+
+#woop3 {
+    margin-top: 4%;
+}
+
+#woop {
+    margin-right: 4%;
+    margin-left: 4%;
+}
