@@ -19,5 +19,8 @@ The structure was established with the .NET CORE MVC design pattern. Operations 
 -List Tables
 
 **Screenshots**
-![9](https://user-images.githubusercontent.com/67455295/85848480-de022b80-b7b1-11ea-8b8d-c98137a22e64.png "TABLES")
-![10](https://user-images.githubusercontent.com/67455295/85848481-de9ac200-b7b1-11ea-8de3-68ff6edb38b9.png "CPU TABLE")
+
+![9](https://user-images.githubusercontent.com/67455295/85848614-20c40380-b7b2-11ea-9d06-6f6db20e5eef.png)
+
+![10](https://user-images.githubusercontent.com/67455295/85848616-215c9a00-b7b2-11ea-8531-1fb41cf109de.png)
+
