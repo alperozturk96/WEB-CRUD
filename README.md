@@ -14,8 +14,11 @@ The structure was established with the .NET CORE MVC design pattern. Operations 
 **Use-Cases**
 
 -Delete Record
+
 -Update Record
+
 -Add Record
+
 -List Tables
 
 **Screenshots**
